@@ -31,3 +31,6 @@ jobs:
 
       - name: Project Structure
         run: ls -la
+
+      - name: Build Docker Image
+        run: docker build -t nodejs-cicd-demo:v1 .
