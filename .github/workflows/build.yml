@@ -40,4 +40,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_TOKEN }}
       - name: Push Docker Image
-        run: docker push nswansi/nodejs-cicd-demo:latest .
+        run: docker push nswansi/nodejs-cicd-demo:latest 
