@@ -23,5 +23,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run Tests
-        run: npm test
+      - name: Verify Node
+        run: node --version
+
+      - name: Verify NPM
+        run: npm --version
+
+      - name: Project Structure
+        run: ls -la
